@@ -64,6 +64,7 @@ class CfgVehicles
 	  ///////////
 	 // LONER //
 	///////////
+	// Birds are nerds
 
 	class SFM_SunriseVestFull_1;
 	class SFM_Suit_SunriseFull_1: SFM_SunriseVestFull_1

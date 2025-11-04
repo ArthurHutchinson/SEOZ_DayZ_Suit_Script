@@ -65,6 +65,8 @@ class CfgVehicles
 	 // LONER //
 	///////////
 
+	// Type forward declaration
+
 	class SFM_SunriseVestFull_1;
 	class SFM_Suit_SunriseFull_1: SFM_SunriseVestFull_1
 	{

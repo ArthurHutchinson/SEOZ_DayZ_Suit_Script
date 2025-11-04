@@ -66,6 +66,8 @@ class CfgVehicles
 	///////////
 	// Birds are nerds
 
+	// Type forward declaration
+
 	class SFM_SunriseVestFull_1;
 	class SFM_Suit_SunriseFull_1: SFM_SunriseVestFull_1
 	{

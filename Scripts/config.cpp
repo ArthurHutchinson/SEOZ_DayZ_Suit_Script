@@ -64,9 +64,6 @@ class CfgVehicles
 	  ///////////
 	 // LONER //
 	///////////
-	// Birds are nerds
-
-	// Type forward declaration
 
 	class SFM_SunriseVestFull_1;
 	class SFM_Suit_SunriseFull_1: SFM_SunriseVestFull_1
@@ -236,12 +233,15 @@ class CfgVehicles
 
 	// TODO: TEST
 	class SFM_VestMerc_Bandit;
-	class SMF_Suit_Bandit_Merc: SFM_VestMerc_Bandit
+	class SFM_Suit_Bandit_Merc: SFM_VestMerc_Bandit
 	{
 		scope = 2;
 		displayName = "Merc Suit (Bandit)";
 		suit[] = {"SFM_MercJacket_bandit","SFMC_MercPants_Bandit"};
 		suitSlots[] = {"Body","Legs"};
 	};
+
+
+	// smf_wfvest_green
 
 };

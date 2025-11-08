@@ -193,7 +193,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Seva Suit (Freedom)";
-		suit[] = {"SFM_SevaJacketV1_Svoboda1","SFM_SevaPants_Svoboda1","MilitaryBoots_Black","OMNOGloves_Gray","SFM_SevaGlass","SFM_SevaBag_Svoboda"};
+		suit[] = {"sfm_sevajacketv1_freedumb","SFM_SevaPants_Freedumb","MilitaryBoots_Black","OMNOGloves_Gray","SFM_SevaGlass","SFM_SevaBag_Svoboda"};
 		suitSlots[] = {"Body","Legs","Feet","Gloves","Mask","Back"};
 	};
 

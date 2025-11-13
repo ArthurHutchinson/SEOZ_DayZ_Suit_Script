@@ -76,6 +76,7 @@ class CfgVehicles
 	class SFM_ZakatVestFull_1;
 	class SFM_MTV_Green;
 	class SFM_WFVest_Green;
+	class SFM_MTV_Black;
 	class SFM_VestMerc_Bandit;
 
 	  ///////////
@@ -209,7 +210,7 @@ class CfgVehicles
 		suitSlots[] = {"Body","Legs","Headgear","Mask"};
 	};
 	
-	class SFM_ZakatVest_Freedom: SFM_ZakatVestFull_1
+	class SFM_Suit_ZakatVest_Freedom: SFM_ZakatVestFull_1
 	{
 		scope = 2;
 		displayName = "Zakat Suit (Freedom)";
@@ -217,7 +218,7 @@ class CfgVehicles
 		suitSlots[] = {"Body","Legs"};
 	};
 	
-	class SFM_MTV_Freedom: SFM_MTV_Green
+	class SFM_Suit_MTV_Freedom: SFM_MTV_Green
 	{
 		scope = 2;
 		displayName = "SAS Suit (Freedom)";
@@ -225,7 +226,7 @@ class CfgVehicles
 		suitSlots[] = {"Body","Legs"};
 	};
 	
-	class SFM_WFVest_Freedom: SFM_WFVest_Green
+	class SFM_Suit_WFVest_Freedom: SFM_WFVest_Green
 	{
 		scope = 2;
 		displayName = "Wind of Freedom";
@@ -260,6 +261,13 @@ class CfgVehicles
 		suitSlots[] = {"Body","Legs","Headgear"};
 	};
 
+	class SFM_Suit_Military_SAS: SFM_MTV_Black
+	{
+		scope = 2;
+		displayName = "SAS Suit (Military)";
+		suit[] = {"SFM_SASJacket_IPSF","SFM_SASPants_IPSF"};
+		suitSlots[] = {"Body","Legs"};
+	};
 	  ////////////
 	 // BANDIT //
 	////////////

@@ -73,9 +73,9 @@ class CfgVehicles
 	class SFM_SevaVestFull_Svoboda1;
 	class SFM_BerilVest_Svoboda1;
 	class SFM_BerilVest_Base;
-	class SFM_ZakatVestFull_1
-	class SFM_MTV_Green
-	class SFM_WFVest_Green
+	class SFM_ZakatVestFull_1;
+	class SFM_MTV_Green;
+	class SFM_WFVest_Green;
 	class SFM_VestMerc_Bandit;
 
 	  ///////////

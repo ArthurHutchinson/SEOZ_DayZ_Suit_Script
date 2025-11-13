@@ -73,6 +73,9 @@ class CfgVehicles
 	class SFM_SevaVestFull_Svoboda1;
 	class SFM_BerilVest_Svoboda1;
 	class SFM_BerilVest_Base;
+	class SFM_ZakatVestFull_1
+	class SFM_MTV_Green
+	class SFM_WFVest_Green
 	class SFM_VestMerc_Bandit;
 
 	  ///////////
@@ -98,7 +101,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Seva Suit";
-		suit[] = {"SFM_SevaJacketV2","SFM_SevaPants","MilitaryBoots_Black","OMNOGloves_Gray","SFM_SevaGlass","SFM_SevaBag"};
+		suit[] = {"SFM_SevaJacketV1","SFM_SevaPants","MilitaryBoots_Black","OMNOGloves_Gray","SFM_SevaGlass","SFM_SevaBag"};
 		suitSlots[] = {"Body","Legs","Feet","Gloves","Mask","Back"};
 	};
 
@@ -202,8 +205,32 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Berill Suit (Freedom)";
-		suit[] = {"SFM_BerilJacket_Svoboda1","SFM_BerilPants_Svoboda1","SFM_BerilHelmet_Svoboda1","SFM_GasMask_XM40"};
+		suit[] = {"SFM_PS5MS_Jacket_Freedumb","SFM_PS5MS_Pants_Freedumb","SFM_BerilHelmet_Svoboda1","SFM_GasMask_XM40"};
 		suitSlots[] = {"Body","Legs","Headgear","Mask"};
+	};
+	
+	class SFM_ZakatVest_Freedom: SFM_ZakatVestFull_1
+	{
+		scope = 2;
+		displayName = "Zakat Suit (Freedom)";
+		suit[] = {"SFM_ZakatJacket_Freedumb","SFM_ZakatPants_Freedumb"};
+		suitSlots[] = {"Body","Legs"};
+	};
+	
+	class SFM_MTV_Freedom: SFM_MTV_Green
+	{
+		scope = 2;
+		displayName = "SAS Suit (Freedom)";
+		suit[] = {"SFM_SASJacket_Freedumb","SFM_SASPants_Freedumb"};
+		suitSlots[] = {"Body","Legs"};
+	};
+	
+	class SFM_WFVest_Freedom: SFM_WFVest_Green
+	{
+		scope = 2;
+		displayName = "Wind of Freedom";
+		suit[] = {"SFM_WFJacket_Freedumb","SFM_WFPants_Freedumb"};
+		suitSlots[] = {"Body","Legs"};
 	};
 
 	// TODO: Make Suit Item for Freedom Merc
@@ -229,8 +256,8 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Berill Suit (Military)";
-		suit[] = {"SFM_BerilJacket_Voen1","SFM_BerilPants_Voen1","SFM_BerilHelmet_Voen1","SFM_GasMask_XM40"};
-		suitSlots[] = {"Body","Legs","Headgear","Mask"};
+		suit[] = {"SFM_PS5MS_Jacket_IPSF","SFM_PS5MS_Pants_IPSF","SFM_BerilHelmet_IPSF"};
+		suitSlots[] = {"Body","Legs","Headgear"};
 	};
 
 	  ////////////

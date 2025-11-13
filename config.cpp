@@ -74,9 +74,15 @@ class CfgVehicles
 	class SFM_BerilVest_Svoboda1;
 	class SFM_BerilVest_Base;
 	class SFM_ZakatVestFull_1;
+	class SFM_ZakatVest2_1;
+	class SFM_ZakatVest3_1;
 	class SFM_MTV_Green;
 	class SFM_WFVest_Green;
 	class SFM_MTV_Black;
+	class SFM_WFJacket_Stalker1;
+	class SFM_Bulat_Vest_Dolg;
+	class SFM_BerilVest_Voen1;
+	class SFP_Hazmat_tors;
 	class SFM_VestMerc_Bandit;
 
 	  ///////////
@@ -104,6 +110,62 @@ class CfgVehicles
 		displayName = "Seva Suit";
 		suit[] = {"SFM_SevaJacketV1","SFM_SevaPants","MilitaryBoots_Black","OMNOGloves_Gray","SFM_SevaGlass","SFM_SevaBag"};
 		suitSlots[] = {"Body","Legs","Feet","Gloves","Mask","Back"};
+	};
+	
+	class SFM_Suit_Zakat: SFM_ZakatVest2_1
+	{
+		scope = 2;
+		displayName = "Zakat Suit";
+		suit[] = {"SFM_ZakatJacket1","SFM_ZakatPants1"};
+		suitSlots[] = {"Body","Legs"};
+	};
+	
+	class SFM_Suit_WFJacket: SFM_WFJacket_Stalker1
+	{
+		scope = 2;
+		displayName = "Wind of Freedom (loner) Suit";
+		suit[] = {"SFM_WFPants_Stalker"};
+		suitSlots[] = {"Legs"};
+	};
+	
+	class SFM_WFVest: SFM_WFVest_Green
+	{
+		scope = 2;
+		displayName = "Wind of Freedom (loner) Suit";
+		suit[] = {"SFM_WFJacket_Stalker1","SFM_WFPants_Stalker"};
+		suitSlots[] = {"Body", "Legs"};
+	};
+	
+	class SFM_Suit_SAS: SFM_ZakatVest3_1
+	{
+		scope = 2;
+		displayName = "SAS Suit";
+		suit[] = {"SFM_SASJacket5","SFM_SASPants5","MilitaryBoots_Black"};
+		suitSlots[] = {"Body","Legs","Feet"};
+	};
+	
+	class SFM_Suit_SAS_2: SFM_ZakatVest3_1
+	{
+		scope = 2;
+		displayName = "SAS Suit";
+		suit[] = {"SFM_SASJacket4","SFM_SASPants4","MilitaryBoots_Black"};
+		suitSlots[] = {"Body","Legs","Feet"};
+	};
+	
+	class SFM_Suit_SAS_Bag: SFM_ZakatVest3_1
+	{
+		scope = 2;
+		displayName = "SAS Suit (Mule)";
+		suit[] = {"SFM_SASJacket5","SFM_SASPants5","MilitaryBoots_Black","SFM_RaiderBags_Green"};
+		suitSlots[] = {"Body","Legs","Feet","back"};
+	};
+	
+	class SFM_Suit_Beril: SFM_BerilVest_Voen1
+	{
+		scope = 2;
+		displayName = "Beril Suit";
+		suit[] = {"SFM_PS5MS_Jacket_Neitral1","SFM_PS5MS_Pants_Neitral1","MilitaryBoots_Black","SFM_BulatHelmet"};
+		suitSlots[] = {"Body","Legs","Feet","Headgear","back"};
 	};
 
 	// TODO: Make the shirt using Berill_shirt_stalker.paa
@@ -150,6 +212,15 @@ class CfgVehicles
 		suit[] = {"SFM_SSP99M_Jacket_V2_Green","SFM_SSP99M_Pants_Green","SFM_SSP99M_Boots","SFM_SSP99M_Gloves","SFM_SevaGlass"};
 		suitSlots[] = {"Body","Legs","Feet","Gloves","Mask"};
 	};
+	
+	class SFP_Suit_HazOP: SFP_Hazmat_tors
+	{
+		// TODO: Add in the null/invisible slot for the 'vest' (NH should have one). Reason why is because when using the suit vests above will dupe the pants/jacket and drop it on the ground.
+		scope = 2;
+		displayName = "Ecologist Combat Suit";
+		suit[] = {"SFP_Hazmat_pants","SFP_Hazmat_Boots","SFP_Hazmat_Helm_mirror"};
+		suitSlots[] = {"Legs","Feet","Headgear"};
+	};
 
 	// TODO: Make Suit Item for Eco Sunrise
 		// Make the invidiual items for Eco Sunrise
@@ -180,6 +251,14 @@ class CfgVehicles
 		displayName = "Seva Suit (Duty)";
 		suit[] = {"SFM_SevaJacketV1_Dolg1","SFM_SevaPants_Dolg1","MilitaryBoots_Black","OMNOGloves_Gray","SFM_SevaGlass","dzrp_Seva5M_Set_Dolg_GasBag"};
 		suitSlots[] = {"Body","Legs","Feet","Gloves","Mask","Back"};
+	};
+	
+	class SFM_Suit_Bulat_Dolg: SFM_Bulat_Vest_Dolg
+	{
+		scope = 2;
+		displayName = "Seva Suit (Duty)";
+		suit[] = {"SFM_PS5MS_Jacket_Dolg1","SFM_PS5MS_Pants_Dolg1","MilitaryBoots_Black","SFM_BulatHelmet_Dolg1"};
+		suitSlots[] = {"Body","Legs","Feet","Headgear"};
 	};
 
 	// TODO: Make Suit Item for Duty Beril

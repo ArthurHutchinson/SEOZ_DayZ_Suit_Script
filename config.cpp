@@ -83,6 +83,8 @@ class CfgVehicles
 	class SFM_Bulat_Vest_Dolg;
 	class SFM_BerilVest_Voen1;
 	class SFP_Hazmat_tors;
+	class SFM_SevaVest3;
+	class SFM_ZakatJacket_IPSF;
 	class SFM_VestMerc_Bandit;
 
 	  ///////////
@@ -346,6 +348,22 @@ class CfgVehicles
 		displayName = "SAS Suit (Military)";
 		suit[] = {"SFM_SASJacket_IPSF","SFM_SASPants_IPSF"};
 		suitSlots[] = {"Body","Legs"};
+	};
+
+	class SFM_Suit_Military_SEVA: SFM_SevaVest3
+	{
+		scope = 2;
+		displayName = "SEVA Suit (Military)";
+		suit[] = {"SFM_SevaJacketV1_IPSF","SFM_SevaPants_IPSF","SFM_SevaGlass","SFM_SevaBag"};
+		suitSlots[] = {"Body","Legs","Mask","Back"};
+	};
+
+	class SFM_Suit_Military_Zakat: SFM_ZakatJacket_IPSF
+	{
+		scope = 2;
+		displayName = "Zakat Suit (Military)";
+		suit[] = {"SFM_ZakatPants_IPSF"};
+		suitSlots[] = {"Legs"};
 	};
 	  ////////////
 	 // BANDIT //
